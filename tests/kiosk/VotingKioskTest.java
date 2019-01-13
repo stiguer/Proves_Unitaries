@@ -9,7 +9,6 @@ import services.ElectoralOrganism;
 import services.ElectoralOrganismImpl;
 import services.MailerService;
 import services.MailerServiceImpl;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 class VotingKioskTest {
@@ -52,7 +51,6 @@ class VotingKioskTest {
         MailAddress address = new MailAddress("aaaa@aaaa.com");
 
         assertThrows(IllegalStateException.class, ()-> votingKiosk.sendeReceipt(address));
-        // no e0 (no fa metode send)
     }
 
     @Test
