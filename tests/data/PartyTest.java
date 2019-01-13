@@ -24,4 +24,5 @@ public class PartyTest {
         String s = "Party{name='name1'}";
         assertEquals(s, p1.toString());
     }
+    
 }
